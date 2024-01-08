@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>BUI</title>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../../css/bui.css" />
+    <link rel="stylesheet" href="../../font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+</head>
+<body>
+    <div class="bui-page bui-box-vertical">
+        <header>
+           <div class="bui-bar">
+            <div class="bui-bar-left">
+                <a class="bui-btn" onclick="bui.back();"><i class="icon-back"></i></a>
+            </div>
+            <div class="bui-bar-main">Page 2</div>
+            <div class="bui-bar-right">
+                <!-- 右边按钮 -->
+            </div>
+           </div>
+        </header>
+        <main>
+            
+            <!-- 正文内容 -->
+            接收的参数：id:<b b-text="page.form.id"></b>
+        </main>
+        <footer class="container-xy">
+            <!-- 底部内容 -->
+            <div class="bui-btn success ring" b-click="page.getProps">动态获取接收参数</div>
+        </footer>
+    </div>
+    <script src="../../js/zepto.js"></script>
+    <script src="../../js/bui.js"></script>
+    <script src="../../js/global.js"></script>
+    <!-- 初始化单页 -->
+    <script src="index.js"></script>
+</body>
+</html>

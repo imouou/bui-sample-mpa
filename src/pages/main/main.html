@@ -1,0 +1,17 @@
+<article class="bui-article">
+    <h1 b-text="main.title"></h1>
+    <h3 b-text="main.desc"></h3>
+
+    <ul class="bui-list-pic bui-fluid-4" b-template="main.tplFeatures(main.features)">
+        <!-- <li class="span1">
+            <div class="bui-pic">
+                <div class="bui-pic-img"><img src="images/img.svg" alt=""></div>
+                <div class="bui-pic-title">图片标题</div>
+            </div>
+        </li>-->
+    </ul>
+    <div class="container-xy bui-interval">
+        <div class="bui-btn round" b-click="main.getData()">Ajax请求</div>
+        <div class="bui-btn round" b-click="main.hint('Hello BUI')">弹出提醒</div>
+    </div>
+</article>
