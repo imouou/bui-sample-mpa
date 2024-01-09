@@ -6,6 +6,24 @@
 
 [进入官网预览模板](http://www.easybui.com/).
 
+
+## 快速构建项目
+
+```bash
+
+# 构建最新的工程名为bui-app
+npx buijs@latest create bui-app
+
+```
+
+## 项目更新bui.js bui.css
+
+```bash
+
+# 更新项目
+npx buijs@latest update
+```
+
 ## 工程需要安装 Node 12+ 以上版本，建议在 node 16.x
 
 ```bash
