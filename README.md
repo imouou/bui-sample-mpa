@@ -7,12 +7,12 @@
 [进入官网预览模板](http://www.easybui.com/).
 
 
-## 快速构建项目
+## 快速构建多页开发项目
 
 ```bash
 
 # 构建最新的工程名为bui-app
-npx buijs@latest create bui-app
+npx buijs@latest create bui-app -p mpa
 
 ```
 
